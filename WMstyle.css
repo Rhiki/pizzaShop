@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+table,tr,th,td {
+	border: 1px solid;
+}
+th, td {
+	text-align: center;
+}
+
+td:hover {
+	text-align: center;
+	background: lightblue;
+	cursor: pointer;
+}
+input[type="checkbox"] {
+	cursor: pointer;
+}
+
+.calender {
+	float:left;
+}
+
+.calender th {
+	color:#fff;
+	background-color:darkblue;
+	font-weight: normal;
+}
+
+.calender tr:nth-child(odd) {
+	background-color:#e6f2ff;
+}
+
+div#sidearea   {
+	position:fixed;
+	float:left;
+	left:50%;
+}
